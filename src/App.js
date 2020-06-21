@@ -1,11 +1,14 @@
 import React from 'react';
 import './App.css';
-import MainContainer from './containers/main/MainContainer';
+import HeaderContainer from './containers/main/HeaderContainer'
+import MainContainer from './containers/main/MainContainer'
 
 function App() {
   return (
-    <MainContainer>
-    </MainContainer>
+    <>
+    <HeaderContainer/>
+    <MainContainer/>
+    </>
   );
 }
 
