@@ -1,10 +1,7 @@
 import React, { Component } from "react";
-import { Navbar, NavbarBrand, Nav, NavDropdown } from "react-bootstrap";
+import { Navbar, NavbarBrand } from "react-bootstrap";
 
 class Header extends Component {
-  constructor(props) {
-    super(props);
-  }
 
   render() {
     return (
