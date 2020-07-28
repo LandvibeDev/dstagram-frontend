@@ -20,7 +20,7 @@ jobs:
         run: yarn build
 
       - name: zip
-        run: zip out build/
+        run: zip -r out build/*
 
       - name: Create Release
         id: create_release
